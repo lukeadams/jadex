@@ -1,0 +1,2 @@
+defmodule JadEx do
+end
