@@ -1,0 +1,2 @@
+%{"ex_parsec": {:hex, :ex_parsec, "0.2.1"},
+  "monad": {:hex, :monad, "1.0.4"}}

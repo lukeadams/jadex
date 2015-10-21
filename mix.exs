@@ -14,7 +14,11 @@ defmodule JadEx.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger]]
+    [
+      applications: [:logger],
+      mod: {JadEx.CLI, []}
+
+    ]
   end
 
   # Dependencies can be Hex packages:
@@ -27,6 +31,8 @@ defmodule JadEx.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:ex_parsec, "~>0.2.1"}
+    ]
   end
 end
